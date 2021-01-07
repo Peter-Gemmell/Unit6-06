@@ -7,10 +7,10 @@ const answer = 15
 // variable for the input in the prompt
 let guess = parseInt(prompt('Whats your guess'))
 // its the loop,until 10 guesses
-  for(i=0 ;i <10 ;i++) {
+for (i = 0; i <10; i++) {
    // loop until answer is same as guess
-   if(answer === guess) {
-    // alert user for correct answer
+  if (answer === guess) {
+  // alert user for correct answer
     alert('You guessed correctly, Congratulations!, Wanna play again?')
     // break so you can leave
     break
@@ -23,8 +23,8 @@ let guess = parseInt(prompt('Whats your guess'))
     // alert  player when too high of a number to guessed
     guess = parseInt(prompt('Incorrect! Too big. Please Try again?'))
     // else
-  }  else {
+  } else {
     // alert taht this is not a number
-    guess =prompt('That is not a valid entity must be a number')
+    guess = prompt('That is not a valid entity must be a number')
   }
 }
