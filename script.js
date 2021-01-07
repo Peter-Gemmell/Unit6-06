@@ -7,8 +7,8 @@ const answer = 15
 // variable for the input in the prompt
 let guess = parseInt(prompt('Whats your guess'))
 // its the loop,until 10 guesses
-for (i = 0; i <10; i++) {
-   // loop until answer is same as guess
+for (i = 0; i < 10; i++) {
+  // loop until answer is same as guess
   if (answer === guess) {
   // alert user for correct answer
     alert('You guessed correctly, Congratulations!, Wanna play again?')
