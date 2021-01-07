@@ -15,11 +15,11 @@ for(i=0;i<10;i++){
      // break so you can leave
      break
      // if guess lower than answer
-  } else if (guess < = answer){
+  } else if (guess <= answer){
     // alert player when too low of a number to the guessed
     guess= parseInt(prompt('Incorrect! Too small. Please Try again?'))
     // if guess higher than answer
-  } else if (guess > = answer){
+  } else if (guess >= answer){
     // alert  player when too high of a number to guessed
     guess= parseInt(prompt('Incorrect! Too big. Please Try again?'))
     // else
