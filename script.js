@@ -14,12 +14,15 @@ for(i=0;i<10;i++){
      break;
      //if guess lower than answer
   } else if (guess <= answer){
-    //alert player when too low
+    //alert player when too low of a number to the guessed
     guess=prompt('Incorrect! Too small. Please Try again?')
-    //alert 
+    //if guess higher than answer
   } else if (guess >= answer){
+    //alert  player when too high of a number to guessed
     guess=prompt('Incorrect! Too big. Please Try again?')
+    //else
   } else{
+    //alert taht this is not a number
     guess=prompt('That is not a valid entity must be a number')
   }
 }
