@@ -25,6 +25,6 @@ for(i=0;i<10;i++){
     // else
   } else{
     // alert taht this is not a number
-    guess = parseInt(prompt('That is not a valid entity must be a number'))
+    guess =prompt('That is not a valid entity must be a number')
   }
 }
